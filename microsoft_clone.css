@@ -1,0 +1,138 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#navbarSupportedContent li a:hover{
+      border-bottom: 2px solid #262626;
+}
+.bodystyle{
+  width: 90%;
+  margin: 0 auto;
+}
+.logostyle{
+  height: 30px;
+}
+.carousel-inner img{
+  width: 100%;
+  height:450px;
+}
+.carousel-item{
+  position: relative;
+  z-index:1;
+}
+.carousel-caption{
+  position: absolute;
+  top:30%;
+  left:10% !important;
+  color:black;
+}
+.carousel-caption h3{
+  text-align: left;
+  color:black;
+}
+.carousel-caption p{
+  text-align: left;
+}
+.carousel-caption button{
+  color: #fff;
+  background: #000;
+  font-size: 15px;
+  padding:10px 20px;
+  border:none;
+  position: absolute;
+  left:0;
+}
+/*home cards div*/
+main{
+  margin:40px 0;
+}
+.card{
+  border:none!important;
+}
+.card-body{
+  padding:5px 0!important;
+}
+.card-title{
+  font-size: 20px;
+}
+/*edge*/
+.edge{
+    width: 100%;
+    height: 500px;
+    background: url('img/edge.jpeg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 300px;
+    margin-bottom: 25px;
+}
+.edge .btn{
+  color: #fff;
+  background: #000;
+  font-size: 15px;
+  padding:10px 20px;
+  border:none;
+
+}
+.edge .content{
+    min-width: 200px;
+    padding: 50px 0 0 30px;
+}
+
+.edge p{
+    margin: 10px 0 20px;
+}
+/**edge ends here*/
+.socialsec{
+  margin-bottom: 40px;
+}
+.btmcardsec{
+  margin:40px 0;
+}
+.fa-facebook{
+  color: #43609C;
+}
+.fa-twitter{
+  color:#1da1f2
+}
+.fa-youtube{
+  color:#E62117;
+}
+footer{
+  background:#f2f2f2;
+  padding:40px 0;
+}
+footer li{
+  list-style: none;
+}
+footer a{
+  text-decoration: none;
+  color:#818181;
+}
+.footerbtnmenu{
+  display:flex;
+  justify-content: space-between;
+}
+.stylepara{
+  font-weight: bold;
+  color:#616161;
+}
+@media(max-width:700px) {
+  .footerbtnmenu{
+      font-size: 11px;
+      display: inline-block;
+      padding-right: 24px;
+  }
+  .edge{
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.fa:hover{
+  transition: 0.5s ease;
+}
